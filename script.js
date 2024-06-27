@@ -10,7 +10,7 @@ function generateRandomNumber(topBound){
   
     document.addEventListener("click", () => {
       console.log("click")
-      fetch("/data.json")
+      fetch("data.json")
       .then((res) => {
         return res.json()
       })
