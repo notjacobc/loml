@@ -63,6 +63,27 @@ body {
   align-items: center;
 }
 
+#countdown-card{
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  border-radius: 20px;
+  margin: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#countdown-card h1{
+  font-size: 3rem;
+}
+
+#countdown-card h2{
+  font-size: 2rem;
+}
+
 #ind-song-card img {
   height: 7rem;
   width: 7rem;
@@ -70,5 +91,4 @@ body {
 
 #ind-song-card-text{
   margin-left: 1.5rem;
-  
 }

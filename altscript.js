@@ -18,4 +18,19 @@ document.addEventListener("DOMContentLoaded", () => {
         ` 
       }
     })
+
+    const countdownHolder = document.querySelector("#count")
+
+    setInterval(() => {
+      let countdownDate = 1723914000000 - Date.now()
+      let days = Math.floor(countdownDate / 86400000)
+      countdownDate -= (days * 86400000)
+      let hours = Math.floor(countdownDate / 3600000)
+      countdownDate -= (hours * 3600000)
+      let minutes = Math.floor(countdownDate / 60000)
+      countdownDate -= (minutes * 60000)
+      let seconds = Math.floor(countdownDate / 1000)
+
+      countdownHolder.innerHTML = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`
+    }, 1000)
   })
