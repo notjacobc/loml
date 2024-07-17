@@ -71,8 +71,6 @@ body {
   margin: 1.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  display: flex;
-  /* align-items: center; */
   text-align: center;
 }
 
